@@ -1,1 +1,26 @@
+body {
+    display: flex;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.links ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.links ul li a {
+    text-decoration: none;
+    padding: 0 0 0 10px;
+}
 
