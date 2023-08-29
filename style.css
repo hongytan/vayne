@@ -1,5 +1,6 @@
 body {
     display: flex;
+    margin: 0;
 }
 
 /* Header */
@@ -7,10 +8,15 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    background-color: #ededed;
+    align-items: center;
 }
 
 .logo img{
     width: 200px;
+    height: auto;
+    padding-left: 10px;
 }
 
 .links ul {
@@ -21,6 +27,10 @@ body {
 
 .links ul li a {
     text-decoration: none;
-    padding: 0 0 0 10px;
+    padding: 0 10px 0 0;
+    font-size: 20px;
+    font-family: "FF Mark W05", Arial, sans-serif;
+    font-weight: bold;
+    color: black;
 }
 
