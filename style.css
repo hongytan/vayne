@@ -73,3 +73,17 @@ body {
 .profile-img img {
     width: 500px;
 }
+
+/* Abilities */
+
+.abilities {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    border: 1px solid blue;
+}
+
+.abilities img {
+    width: 100px;
+}
