@@ -40,13 +40,29 @@ body {
 .profile {
     display: flex;
     height: 500px;
-    background-color: aliceblue;
+    background-color: rgb(64,88,142);
     align-items: center;
     padding: 0 40px;
 }
 
-.profile-info {
+.profile-info p, .profile-info h1, .profile-info button {
+    font-family: "FF Mark W05", Arial, sans-serif;
+}
 
+.profile-info button {
+    color: aliceblue;
+    border-color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(64,88,142);
+    width: 100px;
+    height: 50px;
+    border: 1px solid aliceblue;
+}
+
+.profile-info button:hover {
+    background-color: white;
+    color: rgb(64,88,142);
 }
 
 .profile-img {
