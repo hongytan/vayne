@@ -35,3 +35,25 @@ body {
     color: black;
 }
 
+/* Profile */
+
+.profile {
+    display: flex;
+    height: 500px;
+    background-color: aliceblue;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.profile-info {
+
+}
+
+.profile-img {
+    margin-left: 20px;
+
+}
+
+.profile-img img {
+    width: 500px;
+}
