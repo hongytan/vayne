@@ -80,10 +80,33 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 300px;
-    border: 1px solid blue;
+    height: 500px;
+    flex-direction: column;
+    padding: 40px;
 }
 
 .abilities img {
-    width: 100px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.boxes {
+    display: flex;
+    gap: 30px;
+}
+
+.box {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abilities p {
+    margin: 0;
+}
+
+.abilities h1 {
+    font-size: 60px;
+    margin: 0 0 40px 0;
 }
